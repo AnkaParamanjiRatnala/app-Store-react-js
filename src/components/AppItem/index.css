@@ -1,0 +1,34 @@
+.image-style {
+  height: 80px;
+  width: 80px;
+}
+.app-name {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 23px;
+  color: #1e293b;
+}
+.app-container {
+  background-color: #ffffff;
+  height: 180px;
+  width: 180px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+@media screen and (max-width: 767px) {
+  .image-style {
+    height: 70px;
+    width: 70px;
+  }
+  .app-name {
+    font-size: 21px;
+  }
+  .app-container {
+    height: 160px;
+    width: 160px;
+  }
+}
